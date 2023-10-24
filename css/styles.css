@@ -3,8 +3,48 @@
     padding:0;
     box-sizing: border-box;
     }
-
-    #content .btn btn-primary btn-lg {
-        margin-top: 8px;  
+  
+    h1{
+        font-size: 8em;
+        color: rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
     }
+    
+    h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+    }
+
+    [class*=btn-primary] {
+        background-color: rgb(0, 255, 51);
+        color: black;
+        border: 2px solid white;
+        --bs-btn-hover-bg: rgb(118, 89, 182);
+          
+    }
+
+   
+    .sidebar {
+        height: 100%;
+        position: fixed;
+        width: 250px;
+        background-color: beige;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .sidebar > a:hover {
+        background-color: blue;
+        font-weight: bold;
+        color: aliceblue;
+        transition: 0.35s;
+    }
+    
+    #content {
+        margin-left: 250px;
+        
+    
+    }
+    
     
