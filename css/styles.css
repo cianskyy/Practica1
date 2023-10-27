@@ -4,28 +4,66 @@
     box-sizing: border-box;
     }
   
+h2, h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 h1{
-    font-family: Arial, Helvetica, sans-serif;
-  font-size: 6em;
+    font-size: 14vw;
+text-decoration: underline; 
+
+}
+
+h2{
+    font-size: 2.3em;
+    margin-top: 30px;
+}
+
+p {
+ font-size: 1.5em;
+ font-family: Arial, Helvetica, sans-serif;
+ line-height: 25px;
+ text-transform: uppercase;
+ text-align: justify;
 }
     
-    h2{
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: 200;
+[class*=btn-primary] {
+    border: 0;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        border-radius: 0 ;
+        font-size: 2em;
+        transition: text-decoration 1s;
+    
+     
     }
 
-    
-    [class*=btn-primary] {
-        background-color: rgb(0, 255, 51);
-        color: black;
-        border: 2px solid white;
-        --bs-btn-hover-bg: rgb(118, 89, 182);
-          
+    .btn-primary:hover {
+        text-decoration: underline;
+        border-radius: 5px;
     }
 
-   
+#content {
+    margin: 10px;
     
-    
+}
+
+
+.container {
+    min-width: 100%;
+
+}
+
+
+.img-fluid {
+    padding-top:15px;
+}
+
+
+
+
+ 
+
+
     
     
