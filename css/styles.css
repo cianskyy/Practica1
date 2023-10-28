@@ -4,7 +4,7 @@
     box-sizing: border-box;
     }
   
-h2, h1 {
+h2, h1, h5 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -41,6 +41,21 @@ p {
     .btn-primary:hover {
         text-decoration: underline;
         border-radius: 5px;
+    }
+
+    .card-img-overlay {
+        color: rgb(0, 0, 0);
+        text-decoration: underline;
+        
+    }
+
+    .card-title {
+        text-align: center;
+    }
+
+    .card-title:hover {
+    text-decoration: underline;
+    color: #0d6efd;
     }
 
 #content {
