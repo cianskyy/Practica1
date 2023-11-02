@@ -12,7 +12,7 @@
     }
 
     h2 {
-        font-size: 2em;
+        font-size: 3em;
        
     }
 
@@ -38,30 +38,21 @@
 
     .nav-link:hover {
         text-decoration: underline;
-        color:rgb(47, 255, 0);
-        
+        color:#5cb85c;    
         
     }
-
    
     p {
         margin: 0;
     }
 
     .card-body {
-        background-color: rgb(75, 135, 255);
+        background-color: rgb(139, 178, 255);
     }
 
-    .card {
-        background-color: rgb(75, 135, 255);
-    }
 
-    .custom-col-1 {
-        background-color: rgb(75, 135, 255);
-    }
-
-    .custom-col-2 {
-        background-color: rgb(242, 159, 250);
+    .form-col-2 {
+        background-color: #5cb85c;
     }
 
     .custom-row-2 {
@@ -74,28 +65,104 @@
 
     
     .form-check-input:checked {
-        background-color: rgb(47, 255, 0);
-    border-color: rgb(47, 255, 0);
+        background-color: #5cb85c;
+        border-color: #5cb85c;
     }
 
     .btn {
         --bs-btn-bg: rgb(0, 0, 0);
         --bs-btn-hover-color: rgb(0, 0, 0);
-        font-size: 2em;
+        font-size: 1.5em;
         border-radius: 0;
         transition: background-color 0.3s ease, border-radius 0.3s ease;
         
     }
 
     .btn-primary:hover {
-        background-color: rgb(47, 255, 0) ;
+        background-color: #5cb85c;
         border-radius: 0 30px 0 30px;
+        
         
     }
 
-   
+    .form-control {
+        background-color: aliceblue;
+        border-radius: var(--bs-border-radius-0);
+        border-color: rgb(0, 0, 0);
+        border-width: 1px;
 
-   
+    }
+
+    .input-group-text {
+        border-radius: var(--bs-border-radius-0);
+        
+    }
+
+    .form-select {
+        background-color: aliceblue;
+        border-radius: var(--bs-border-radius-0);
+        border-color: rgb(0, 0, 0);
+        border-width: 1px;
+    }
+
+  
+   .oval-half-red {
+    width: 20vw;
+    height: 8vw;
+    -moz-border-radius: 0 50% / 0 100%;
+    -webkit-border-radius: 0 50% / 0 100%;
+    border-radius: 0 50% / 0 100%;
+    background: #5cb85c;
+}
+
+
+.separador {
+    display: flex;
+    flex-direction: row;
+}
+
+.bi-cloud-download:hover{
+    transform: scale(1.2);
+}
+
+.bi-cloud-download{
+    transition: transform 0.3s;
+}
+
+.underline-card-title {
+    text-decoration: none;
+    transition: text-decoration 0.5s ease;
+}
+
+.underline-card-title:hover {
+    text-decoration: underline;
+    
+}
+
+.progress {
+    font-size: 1.5em;
+    border-radius: 0;
+    background-color: aliceblue;
+}
+.progress-bar {
+    background-color: #5cb85c;
+}
+
+.btn-primary {
+    --bs-btn-active-bg: rgb(139, 178, 255);
+
+}
+
+.card {
+    border-radius: 0 30px 0 30px;
+    background-color: #5cb85c;
+}
+
+.hoja-col-1, .firmas-col {
+    background-color: rgb(139, 178, 255);
+}
+
+
 
     
     
