@@ -11,7 +11,7 @@
     }
 
 
-     @font-face { */
+     @font-face {
         font-family: 'Humane'; /* Nombre de la fuente personalizada */
         src: url('css/HumaneMedium.ttf') format('truetype'); /* Ruta al archivo de la fuente */
         /* Otros formatos y estilos de fuente (si es necesario) */
