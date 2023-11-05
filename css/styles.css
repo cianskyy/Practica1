@@ -3,6 +3,7 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'Bricolage Grotesque', sans-serif;
+    color: black;
     }
 
     img {
@@ -14,7 +15,6 @@
 
    
 h2, h1, h3 {
-color: black;
 font-weight: 500;
 line-height: 1;
 
@@ -32,7 +32,6 @@ h2,h3 {
 }
 
 
-
 p {
  font-size: 1.5em;
  font-family: 'Bricolage Grotesque', sans-serif;
@@ -40,101 +39,85 @@ p {
  line-height: 25px;
  text-align: justify;
 }
-    
-[class*=btn-primary] {
-    border: 0;
-        background-color: rgb(0, 0, 0);
-        color: rgb(255, 255, 255);
-        border-radius: 0 ;
-        font-size: 2em;
-        transition: text-decoration 1s;
-        margin-bottom: 20px;
-    
-     
-    }
 
 
     .custom-col-center {
         background-color: #5cb85c;
     }
-
+    
     .custom-col-right {
         background-color:rgb(139, 178, 255);
     }
-
+    
     .card-img-overlay {
         color: rgb(0, 0, 0);
         text-decoration: underline;
     }
-
-    .img-fluid {
-        border-radius: 0 0 80px 0;
-    }
-
-    .img-fluid1 {
-        border-radius: 0 0 0 80px;
-    }
-
+    
+    
     .custom-card-firma {
         border-radius: 0 150px 0 150px;
     }
-
+    
     .custom-card-1 { 
         border-radius: 0 150px 0 150px;
-    
+        
     }
-
+    
     .card {
-       border: 0;
+        border: 0;
     }
 
     .card-title {
         text-align: center;
         
     }
-
     
-   
-
+    
     .card-title:hover {
-    text-decoration: underline;
-    color: #0d6efd;
+        text-decoration: underline;
+        color: #0d6efd;
+    }
+    
+    
+    .container {
+        max-width: 100%;
+        min-height: auto;
+        
+    }
+    
+    .custom-row-1 {
+        min-height: auto;
+        
+    }
+    
+    .image-card {
+        padding: 15px 0 0 0;
+       
     }
 
-
-.container {
-    max-width: 100%;
-    min-height: auto;
+    .card-img-top{
+        border-radius: 0 80px 0 80px;
+    }
     
-}
-
-.custom-row-1 {
-    min-height: auto;
-
-}
-
-.image-card {
-    padding: 15px 0 0 0;
-}
-
-
-li { 
-    font-size: 2em;
-}
-
-.navbar {
-    background-color: black;
-}
-.navbar-brand{
-    width: 80px;
     
-}
-
-.navbar-toggler {
-    background-color:rgb(255, 255, 255);
-}
-
-.custom-footer {
+    li { 
+        font-size: 2em;
+    }
+    
+    .navbar {
+        background-color: black;
+    }
+    .navbar-brand{
+        width: 80px;
+        
+    }
+    
+    .navbar-toggler {
+        background-color:rgb(255, 255, 255);
+    }
+    
+    .custom-footer {
     color:black;
     text-decoration: none;
     transition: text-decoration 0.5s ease, color 0.3s ease;
@@ -187,52 +170,72 @@ li {
     flex-direction: row;
 }
 
- 
+
 
 .bi-clipboard-heart {
     font-size: 80px;
 }
 
 .photo-bg {
-    z-index: -1;
-    max-width: 100%;
+    width: 100%;
     height: 80vh;
     object-fit: cover;
-   
+    border-radius: 0 80px 0 80px;
+    
 }
 
 .photo-bg-izq {
-    z-index: -1;
-    max-width: 100%;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+    
 }
+
+
+.photo-png {
+    width: 17%;
+    height: 110%;
+    object-fit: fill;
+    position: absolute;
+     
+    
+}
+
+
 
 @media (max-width: 1399.98px) {
      
     .bi-clipboard-heart {
         font-size: 50px;
     }
-
     
- }
+    
+}
 
 @media (max-width: 767.98px) { 
-
+    
     h3{
         font-size: 1.5em;
     }
-
+    
     h1{
         font-size: 5em; 
     }
-
+    
     .bi-clipboard-heart {
         font-size: 50px;
     }
-
+    
 }
 
+
+[class*=btn-primary] {
+border: 0;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: text-decoration 1s;
+
+}
 
 * {
     --tw-translate-x: 0;
@@ -245,17 +248,18 @@ li {
     --tw-ring-offset-shadow: 0 0 rgba(0, 0, 0, 0);
     --tw-ring-shadow: 0 0 rgba(0, 0, 0, 0);
     --tw-shadow: 0 0 rgba(0, 0, 0, 0);
-  }
+}
  
   
   
   .btn {
-    --bs-btn-bg: rgb(0, 0, 0);
-    --bs-btn-hover-color: rgb(0, 0, 0);
-    font-size: 1.5em;
-    border-radius: 0;
-    transition: background-color 0.3s ease, border-radius 0.3s ease;
-   
+      width: 200px;
+      --bs-btn-bg: rgb(0, 0, 0);
+      --bs-btn-hover-color: rgb(0, 0, 0);
+      font-size: 1.5em;
+      border-radius: 0;
+      transition: background-color 0.3s ease, border-radius 0.3s ease;
+      
     margin: 0;
     position: relative;
     display: block;
@@ -264,9 +268,9 @@ li {
     border-color: rgba(0, 0, 0, var(--tw-border-opacity));
     transition-duration: 0.1s;
     transition-timing-function: linear;
-  }
-  
-  .btn:after {
+}
+
+.btn:after {
     position: absolute;
     --tw-translate-x: 20%;
     --tw-translate-y: -35%;
