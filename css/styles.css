@@ -42,6 +42,7 @@ p {
  font-weight: 300;
  line-height: 25px;
  text-align: justify;
+
 }
 
 
@@ -94,7 +95,12 @@ background-color: coral;
     .container {
         max-width: 100%;
         min-height: auto;
+
         
+    }
+
+    .container-custom-bg {
+        background-color: coral;
     }
     
     
@@ -151,7 +157,6 @@ background-color: coral;
     
 }
 
-
 .oval-half-red {
     width: 20vw;
     height: 8vw;
@@ -160,7 +165,6 @@ background-color: coral;
     border-radius: 0 50% / 0 100%;
     background: #5cb85c;
 }
-
 
 .separador {
     display: flex;
@@ -181,7 +185,6 @@ background-color: coral;
     height: 60vh;
     border-radius: 0 100px 0 100px;
 }
-
 
 
 
