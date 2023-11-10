@@ -116,15 +116,18 @@
     .form-check-input:checked {
         background-color: #5cb85c;
         border-color: #5cb85c;
+        --bs-focus-ring-color: rgba(var(--bs-success-rgb), .40);
+       
+
     }
+
 
     .form-control {
         background-color: aliceblue;
         border-radius: var(--bs-border-radius-0);
         border-color: rgb(0, 0, 0);
         border-width: 1px;
-        border-radius: var(--shadow-0)
-
+        --bs-focus-ring-color: rgba(var(--bs-success-rgb), .40);
     }
 
     .input-group-text {
@@ -137,7 +140,11 @@
         border-radius: var(--bs-border-radius-0);
         border-color: rgb(0, 0, 0);
         border-width: 1px;
+        --bs-focus-ring-color: rgba(var(--bs-success-rgb), .40);
+
     }
+
+   
 
   
    .oval-half-red {
