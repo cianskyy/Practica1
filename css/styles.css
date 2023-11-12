@@ -319,65 +319,64 @@ border: 0;
   }
 }
 
-.fadeInUp-animation {
-  animation: 1s fadeInUp;
-}
-
-
-.hover {
+  
+  .content1 {
+    position: relative;
     overflow: hidden;
-    position: relative;
-    padding-bottom: 70%;
   }
   
-  .hover-overlay {
-    width: 100%;
+  .content1 .content-overlay {
+    position: absolute;
     height: 100%;
-    position: absolute;
-    top: 0;
+    width: 100%;
     left: 0;
-    z-index: 90;
-    transition: all 0.4s;
-  }
-  
-  .hover img {
-    position: absolute;
     top: 0;
-    left: 0;
-    transition: all 0.3s;
-  }
-  
-  .hover-content {
-    position: relative;
-    z-index: 99;
-  }
-
-  
-  .hover-1-content {
-    position: absolute;
     bottom: 0;
-    left: 0;
-    z-index: 99;
-    transition: all 0.4s;
-  }
-  
-  
-  .hover-1-description {
-    transform: translateY(0.5rem);
-    transition: all 0.4s;
+    right: 0;
     opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
   }
   
-  .hover-1:hover .hover-1-content {
-    bottom: 20px;
-  }
-  
-  .hover-1:hover .hover-1-description {
+  .content1:hover .content-overlay{
     opacity: 1;
-    transform: none;
+  }
+
+  .content-details {
+    position: absolute;
+    text-align:start;
+    width: 100%;
+    top: 60%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
   }
   
-
-
-
- 
+  .content1:hover .content-details{
+    top: 70%;
+    left: 50%;
+    opacity: 1;
+  }
+  
+  .content-details h3{
+    color: #fff;
+    text-shadow: 8px 8px 8px rgba(0, 0, 0, 10);
+    
+  
+  }
+  
+  .content-details p{
+    color: #fff;
+    text-shadow: 8px 8px 8px rgba(0, 0, 0, 10);
+  }
+  
+  .fadeIn-bottom{
+    top: 90%;
+  }
+  
