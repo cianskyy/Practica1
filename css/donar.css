@@ -3,8 +3,15 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'Bricolage Grotesque', sans-serif;
-    color: black;
+   
     }
+
+    @font-face {
+        font-family: 'Unbounded';
+        src: url('css/Unbounded.ttf') format('truetype');
+       } 
+      
+
 
     img {
         width: 100%;
@@ -23,13 +30,36 @@
 
         h1{
             font-size: 6vw; 
+            font-family: 'Unbounded';
+            line-height: 1.2;
+      text-decoration: none; 
         
         }
         
         h2,h3 {
             font-size: 3em;
             
+            
         }
+
+        @media (max-width: 767.98px) { 
+    
+            h3{
+                font-size: 1.5em;
+            }
+            
+            h1{
+                font-size: 3em; 
+            }
+            
+            .bi-clipboard-heart {
+                font-size: 50px;
+            }
+        
+            
+            
+        }
+        
 
     p {
         font-size: 1.5em;
@@ -104,9 +134,6 @@
         background-color: #5cb85c;
     }
 
-    .custom-row-2 {
-        margin-top: 0;
-    }
 
     .card-img-bottom {
         border-radius: 0 0 90px 0
@@ -144,9 +171,10 @@
 
     }
 
-   
-
   
+  
+
+   
    .oval-half-red {
     width: 20vw;
     height: 8vw;
@@ -169,11 +197,7 @@
 }
 
 .bi-cloud-download{
-    transition: transform 0.3s;
-}
-
-.bi-water {
-    font-size: 60px;
+    transition: transform 0.2s;
 }
 
 .underline-card-title {
@@ -208,7 +232,7 @@
    
 }
 
-.hoja-col-1, .firmas-col {
+.bg-col-1 {
     background-color: rgb(139, 178, 255);
 }
 
