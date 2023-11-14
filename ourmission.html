@@ -11,25 +11,32 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/ourmission.css">
     <script src="js/bootstrap.bundle.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </head>
 
 <body>
+  <script>
+    AOS.init();
+  </script>
     <!--menu--> 
- <nav class="navbar navbar-expand-lg bg-body-tertiary">
-   <div class="container-fluid">
-     <a class="navbar-brand" href="#">LOGO</a>
-     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar-toggler-icon"></span>
-     </button>
-     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-       <div class="navbar-nav">
-         <a class="nav-link active" aria-current="page" href="#">HOME</a>
-         <a class="nav-link" href="#">TAKE ACTION</a>
-         <a class="nav-link" href="#">OUR MISSION</a>
-       </div>
-     </div>
-   </div>
- </nav>
+    <nav class="navbar navbar-expand-lg bg-body-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand"><img src="img/Vector.png" class="img-logo" alt="..."> </a>
+        <button class="navbar-toggler rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link custom-menu" aria-current="page" href="index.html">HOME</a>
+            <a class="nav-link custom-menu" href="donar.html">TAKE ACTION</a>
+            <a class="nav-link custom-menu" href="#">OUR MISSION</a>
+          </div>
+        </div>
+      </div>
+    </nav>
 
  <main id="content">
 
@@ -105,43 +112,7 @@
 
 
 <!-- SECCIÓN 3 -->
-<!-- <div class="container">
-  <ul class="nav-ul">
-    <li class="nav-li">
-      <a href="#" class="nav-a">
-        <span class="nav-a-letters">
-          <span class="nav-a-letter"> I</span>
-          <span class="nav-a-letter"> N</span>
-          <span class="nav-a-letter"> F</span>
-          <span class="nav-a-letter"> 0</span>
-          <span class="nav-a-letter"> R</span>
-          <span class="nav-a-letter"> M</span>
-          <span class="nav-a-letter"> A</span>
-          <span class="nav-a-letter"> C</span>
-          <span class="nav-a-letter"> I</span>
-          <span class="nav-a-letter"> Ó</span>
-          <span class="nav-a-letter"> N</span>
-        </span>
-        <span class="nav-a-stripe nav-a-stripe--azul"> </span>
-        <span class="nav-a-stripe nav-a-stripe--medio"> </span>
-        <span class="nav-a-stripe nav-a-stripe--verde"> </span>
-        <span class="nav-a-letters-top">
-          <span class="nav-a-letter"> I</span>
-          <span class="nav-a-letter"> N</span>
-          <span class="nav-a-letter"> F</span>
-          <span class="nav-a-letter"> 0</span>
-          <span class="nav-a-letter"> R</span>
-          <span class="nav-a-letter"> M</span>
-          <span class="nav-a-letter"> A</span>
-          <span class="nav-a-letter"> C</span>
-          <span class="nav-a-letter"> I</span>
-          <span class="nav-a-letter"> Ó</span>
-          <span class="nav-a-letter"> N</span>
-        </span>
-      </a>
-    </li>
-  </ul>
-</div> -->
+
 <h1>INFORMACIÓN</h1>
 
 <div class="accordion rounded-0" id="accordionPanelsStayOpenExample">
@@ -189,10 +160,10 @@
 
 <div class="container">
   <footer class="mt-5">
-    <ul class="nav justify-content-between border-bottom pb-2 mb-3">
-      <li class="nav-item"><a href="#" class="nav-link px-2">FACEBOOK</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2">TWITTER</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2">CONTACTO</a></li>
+    <ul class="nav justify-content-md-between justify-content-sm-start border-bottom pb-2 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 custom-footer">FACEBOOK</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 custom-footer">TWITTER</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 custom-footer">CONTACTO</a></li>
     </ul>
     <h2 class="text-left text-body-primary">© SALVEMOS DOÑANA</h2>
   </footer>
