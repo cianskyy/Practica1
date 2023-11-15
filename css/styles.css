@@ -241,6 +241,27 @@ background-color: coral;
     .bi-clipboard-heart {
         font-size: 50px;
     }
+
+    
+.cuarto-circulo2 {
+    width: 100px; 
+    height: 100px; 
+    background: #5cb85c;
+    -moz-border-radius: 100% 0 0 0;
+    -webkit-border-radius: 100% 0 0 0;
+    border-radius: 100% 0 0 0;
+    box-shadow: 0 0 7px 7px rgba(0, 0, 0, 0.119);
+}
+
+.cuarto-circulo {
+    width: 100px; 
+    height: 100px; 
+    background: #5cb85c;
+    -moz-border-radius: 0 100% 0 0;
+    -webkit-border-radius: 0 100% 0 0;
+    border-radius: 0 100% 0 0;
+    box-shadow: 0 0 7px 7px rgba(0, 0, 0, 0.119);}
+
     
    
 }
