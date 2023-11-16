@@ -1,128 +1,308 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <!DOCTYPE html>
-    <html lang="en">
+    <html lang="es">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SALVAR DOÑANA</title>
+        <link rel="icon" type="image/x-icon" href="img/favicon.png">
 
+        
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
         <script src="js/bootstrap.bundle.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-       <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,600;12..96,700&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
-    </head>
+        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,600;12..96,700&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap" rel="stylesheet">
+      </head>
     <body>
-         <!--menu--> 
-      <nav class="navbar navbar-expand-lg bg-body-primary">
+      
+       <script>
+       AOS.init();
+      </script>
+
+<!--menu--> 
+<nav class="navbar navbar-expand-lg bg-body-primary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="img/SD.png" class="img-logo" alt="..."> </a>
+          <a class="navbar-brand"><img src="img/Vector.png" class="img-logo" alt="..."> </a>
           <button class="navbar-toggler rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link custom-menu" aria-current="page" href="#">HOME</a>
-              <a class="nav-link custom-menu" href="#">TAKE ACTION</a>
+              <a class="nav-link custom-menu" aria-current="page" href="index.html">HOME</a>
+              <a class="nav-link custom-menu" href="donar.html">TAKE ACTION</a>
               <a class="nav-link custom-menu" href="#">OUR MISSION</a>
             </div>
           </div>
         </div>
       </nav>
 
-    <main id="content">
+      <!-- SECTION1 -->
       
+      <main id="content">
+        
+        <div class="position-relative">
+          <div class="cuarto-circulo z-3 position-fixed bottom-0 start-0">
+          </div>
+        
+          <div class="cuarto-circulo2 z-3 position-fixed bottom-0 end-0">
+          </div>
+        </div>
+        
+        
+      <div class="container p-0 position-relative">
+    <div class="col-md-6 z-1 position-absolute bottom-0 start-0 p-3">
+  <h3 class="fadeInUp-animation text-white fw-medium m-0  w3-animate-bottom">Somos una organización sin ánimo de lucro que protege el parque natural de Doñana. Forma parte y ayúdanos a defender uno de  los espacios protegidos más importantes del territorio andaluz.</h3>
+
+   </div>
+
+        <div class="ratio ratio-4x3">
+          <video src="img/doñanavideo.mp4" class="w-100 object-fit-cover" autoplay muted></video>
+        </div>  
+      </div>
+
 
    <!--SECCIÓN 1-->   
-  <div class="container text-left">
+  <div class="container">
 
     <div class="row custom-row-1">
-      <div class="col-2 d-none d-md-block">
-         <img src="https://placehold.co/200x600" class="img-fluid" width="100%" height="100%" alt="..."> 
+      <div class="col-2 d-none d-lg-block custom-col-left p-0">
+
+           <img src="img/img_izq.jpg" class="mw-100 h-100 object-fit-cover" alt="..."> 
         
         </div>
       
-      <div class="col-sm-6">
-        <h1>SALVAR DOÑANA</h1> 
-        <div><p class="text-uppercase" text-uppercase><span class="fw-bolder text-decoration-underline">Doñana es el humedal más importante de Europa.</span> Cientos de miles de aves dependen de sus marismas para criar, pasar el invierno o para descansar durante su migración a África y por eso nuestro país y la Junta de Andalucía tienen una enorme responsabilidad internacional. </p> 
-        <p>Es un elemento fundamental de nuestra historia y nos recuerda que tenemos que coexistir con la naturaleza que nos rodea desde el respeto a la diversidad biológica. Es un monumento lleno de vida, símbolo de nuestra identidad colectiva, como la Alhambra, el Camino de Santiago o El Escorial.
+      <div class="col-lg-6 custom-col-center p-3">
+        
+        <h1>SALVAR DOÑANA <i class="bi bi-clipboard2-heart"></i><i class="bi bi-droplet-half"></i>
+        </h1> 
+        <div>
+        <p data-aos="fade-up" class="text-uppercase" text-uppercase><span class="fw-medium text-decoration-underline">Doñana es el humedal más importante de Europa.</span> Cientos de miles de aves dependen de sus marismas para criar, pasar el invierno o para descansar durante su migración a África y por eso nuestro país y la Junta de Andalucía tienen una enorme responsabilidad internacional. </p> 
+        <p data-aos="fade-up" class="text-justify">Es un elemento fundamental de nuestra historia y nos recuerda que tenemos que coexistir con la naturaleza que nos rodea desde el respeto a la diversidad biológica. Es un monumento lleno de vida, símbolo de nuestra identidad colectiva, como la Alhambra, el Camino de Santiago o El Escorial.
           Su extensión, 128.000 hectáreas, sus extraordinarias cualidades y sus múltiples figuras de protección no lo eximen de riesgos y amenazas que incrementan su vulnerabilidad.</p>
         </div>
       </div>
-      <div class="col-sm">
-        <h2>PERO,¿QUE LE OCURRE A DOÑANA?</h2>
-        <button type="button" class="btn btn-primary btn-lg">OUR MISSION</button>
-    <div> <img src="https://placehold.co/200x200" class="img-fluid" alt="..."> 
-    </div>
+      
+      <div class="col-lg custom-col-right p-0">
+      
+        <div class="p-3 h-50">
+  
+          <h2>PERO,¿QUE LE OCURRE A DOÑANA?</h2>
+          <a role="button" class="btn btn-primary btn-lg" href="#">OUR MISSION</a>
+          
+        </div>
+         
+        <img data-aos="fade-up" src="img/noelia-ramirez-6JQncuMayWI-unsplash.jpg" class="photo-bg object-fit-cover w-100 h-50" alt="..."> 
+
       </div>
       
     </div>
-
-    <div class="row custom-row-1">
-    <div class="col-sm">
-      <div class="card text-bg-dark border-0 custom-card-1">
-        <img src="https://placehold.co/400x100" class="card-img custom-card-firma"  alt="...">
-        <div class="card-img-overlay d-flex justify-content-center">
-          <p><a href="#" class="card-title">FIRMA EL MANIFIESTO</a></p>
-        </div>
-      </div>
-      </div>
   </div>
-</div>
-<!-- intro1 -->
-  <div class="container-fluid text-center">
-    <div class="row justify-content-between">
-      <div class="col-6"><h3>DESCUBRE DOÑANA</h3></div>
-      <div class="col-6"><h3>MOSAICO DE ECOSISTEMAS</h3></div>
 
+  <div class="container container-custom-bg">
+
+  <div class="row g-3 py-3" data-aos="fade-up">
+    <div class="col-lg gy-3">
+
+      <img src="img/img_noticia_1.jpg" class="photo-bg object-fit-cover w-100 pb-3" alt="...">
+      
+      
+        <h3>Única urgencia: salvar Doñana [EL PAIS]</h3>
+        <p class="card-text">Legislar en contra de las recomendaciones científicas es un lujo que ninguna sociedad democrática puede permitirse.</p>
+        <a href="https://elpais.com/clima-y-medio-ambiente/2023-04-25/unica-urgencia-salvar-donana.html" target="_blank" class="btn btn-primary">VISITAR WEB</a>
+      
+    
+    </div>
+    <div class="col-md gy-3">
+      
+      <img src="img/img_noticia_2.jpg" class="photo-bg object-fit-cover w-100 pb-3" alt="...">
+      
+      <h3>En busca de un gran pacto para salvar la situación límite de Doñana [EL CONFIDENCIAL]</h3>
+      <p class="card-text">La organización conservacionista SEO/BirdLife alerta del grave deterioro del humedal.</p>
+      <a href="https://www.elconfidencial.com/espana/andalucia/2023-09-13/la-junta-y-el-gobierno-sin-un-plan-conjunto-para-salvar-donana-nos-dieron-un-portazo_3733989/" target="_blank" class="btn btn-primary">VISITAR WEB</a>
+   
+    </div>
+    <div class="col-md gy-3">
+      <img src="img/img_noticia_3.jpg" class="photo-bg object-fit-cover w-100 pb-3" alt="...">
+
+      <h3>Un inédito pacto entre el Gobierno y la Junta abre la puerta a salvar Doñana [LA VANGUARDIA]</h3>
+      <p class="card-text">La inversión de 350 millones en un plan de “desarrollo sostenible” allana el camino.</p>
+      <a href="https://www.lavanguardia.com/natural/20231004/9275999/inedito-pacto-gobierno-junta-abre-puerta-salvar-donana.html" target="_blank" class="btn btn-primary">VISITAR WEB</a>
     </div>
   </div>
+  </div>
+  <div data-aos="fade-up" class="separador p-3">
+    
+   <div class="oval-half-red">
+   </div>
+   <div class="oval-half-red">
+   </div>
+   <div class="oval-half-red">
+   </div>
+   <div class="oval-half-red">
+   </div>
+   <div class="oval-half-red">
+   </div>
+   <div class="oval-half-red">
+   </div>
+   <div class="oval-half-red">
+   </div>
+   
+  </div>
+
+  <div data-aos="fade-up" class="card text-bg-dark border-0 custom-card-1 p-0">
+    <img src="img/imagen_horizontal.jpg" class="photo-bg-horizontal object-fit-cover w-100" alt="...">
+    <div class="card-img-overlay d-flex justify-content-center align-items-center">
+      <p><a href="donar.html" class="card-title">FIRMA EL MANIFIESTO</a></p>
+    </div>
+  </div>
+
+
+  <!-- FIRMAR-->
+
+ <!-- SEPARADOR-->
+
+<!-- intro1 -->
+<div data-aos="fade-up" class="separador p-3">
+  <div class="oval-half-red">
+  </div>
+  <div class="oval-half-red">
+  </div>
+  <div class="oval-half-red">
+  </div>
+  <div class="oval-half-red">
+  </div>
+  <div class="oval-half-red">
+  </div>
+  <div class="oval-half-red">
+  </div>
+  <div class="oval-half-red">
+  </div>
+  
+ </div>
+
+  <div data-aos="fade-up" class="container-fluid text-center p-3">
+    <div class="row">
+
+      <div class="col-12"><h2>DESCUBRE DOÑANA_MOSAICO DE ECOSISTEMAS</h2></div>
+      
+    </div>
+  </div>
+
+<!-- SEPARADOR-->
+
 
 <!-- GALLERY -->
-  <div class="container text-center custom-container-1">
-    <div class="row custom-row-2">
-      <div class="col-md-5">
+  <div class="container text-center">
+    <div data-aos="fade-up" class="row custom-row-2">
+      <div class="col-md-5 g-3">
         <div class="card image-card">
-        <img src="https://placehold.co/600x400" class="card-img-top rounded-0" alt="Image 1">
+          <div class="content1">
+            <a href="img/marisma.jpg" target="_blank">
+            <div class="content-overlay"></div>
+            
+            <img src="img/marisma.jpg" class="content-image text-white card-img-top" alt="Image 1">
+            <div class="content-details fadeIn-bottom p-3">
+              <h2 class="content-title">LA MARISMA</h2>
+              
+            </div>
+          </a>
+        </div>
+      </div>
+
+  </div>
+      <div class="col-md-4 offset-md-2 g-3">
+        <div class="card image-card">
+        <div class="content1">
+          <a href="img/playas.jpg" target="_blank">
+          <div class="content-overlay"></div>
+          
+          <img src="img/playas.jpg" class="content-image text-white card-img-top" alt="Image 1">
+          <div class="content-details fadeIn-bottom p-3">
+            <h2 class="content-title">LAS PLAYAS</h2>
+            
+          </div>
+        </a>
+      </div>
+      </div>
+  </div>
+    </div>
+    <div data-aos="fade-up" class="row custom-row-2">
+      <div class="col-md-4 offset-md-2 g-3">
+        <div class="card image-card">
+          <div class="content1">
+            <a href="img/cotos.jpg" target="_blank">
+            <div class="content-overlay"></div>
+            
+            <img src="img/cotos.jpg" class="content-image text-white card-img-top" alt="Image 1">
+            <div class="content-details fadeIn-bottom p-3">
+              <h2 class="content-title">LOS COTOS</h2>
+              
+            </div>
+          </a>
+        </div>
+    </div>
+  </div> 
+      <div class="col-md-4 offset-md-1 g-3"> 
+        <div class="card image-card">
+          <div class="content1">
+            <a href="img/dunas.jpg" target="_blank">
+            <div class="content-overlay"></div>
+            
+            <img src="img/dunas.jpg" class="content-image text-white card-img-top" alt="Image 1">
+            <div class="content-details fadeIn-bottom p-3">
+              <h2 class="content-title">LAS DUNAS</h2>
+              
+            </div>
+          </a>
+        </div>
     </div>
   </div>
-      <div class="col-md-4 offset-md-2">
+    </div>
+    <div  data-aos="fade-up" class="row custom-row-2">
+      <div class="col-md-4 g-3">
         <div class="card image-card">
-        <img src="https://placehold.co/600x400" class="card-img-top rounded-0" alt="Image 1">
+          <div class="content1">
+            <a href="img/bosque.jpg" target="_blank">
+            <div class="content-overlay"></div>
+            
+            <img src="img/bosque.jpg" class="content-image text-white card-img-top" alt="Image 1">
+            <div class="content-details fadeIn-bottom p-3">
+              <h2 class="content-title">LOS BOSQUES</h2>
+              
+            </div>
+          </a>
+        </div>
     </div>
   </div>
-    </div>
-    <div class="row custom-row-2">
-      <div class="col-md-4 offset-md-2">
+      <div class="col-md-5 offset-md-3 g-3">
         <div class="card image-card">
-        <img src="https://placehold.co/600x300" class="card-img-top rounded-0" alt="Image 1">
+          <div class="content1">
+            <a href="img/vera.jpg" target="_blank">
+            <div class="content-overlay"></div>
+            
+            <img src="img/vera.jpg" class="content-image text-white card-img-top" alt="Image 1">
+            <div class="content-details fadeIn-bottom p-3">
+              <h2 class="content-title">LAS VERAS</h2>
+              
+            </div>
+          </a>
+        </div>
     </div>
   </div>
-      <div class="col-md-4 offset-md-1"> 
-        <div class="card image-card">
-        <img src="https://placehold.co/600x400" class="card-img-top rounded-0" alt="Image 1">
-    </div>
-  </div>
-    </div>
-    <div class="row custom-row-2">
-      <div class="col-md-4">
-        <div class="card image-card">
-        <img src="https://placehold.co/600x700" class="card-img-top rounded-0" alt="Image 1">
-    </div>
-  </div>
-      <div class="col-md-5 offset-md-3">
-        <div class="card image-card">
-        <img src="https://placehold.co/600x400" class="card-img-top rounded-0" alt="Image 1">
-    </div>
-  </div>
+
+</div>
     
   </div>
 </div>
@@ -132,14 +312,14 @@
 
 
 <!--FOOTER-->
-<div class="container">
+<div class="container ">
   <footer class="mt-5">
-    <ul class="nav justify-content-between border-bottom pb-2 mb-3">
-      <li class="nav-item"><a href="#" class="nav-link px-2">FACEBOOK</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2">TWITTER</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2">CONTACTO</a></li>
+    <ul class="nav justify-content-center border-bottom pb-2 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 custom-footer">FACEBOOK</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 custom-footer">TWITTER</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 custom-footer">CONTACTO</a></li>
     </ul>
-    <h2 class="text-left text-body-primary">© SALVEMOS DOÑANA</h2>
+    <h2 class="text-center text-body-primary">© SALVEMOS DOÑANA</h2>
   </footer>
 </div>
 
