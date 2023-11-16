@@ -2,6 +2,7 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Bricolage Grotesque', sans-serif;
     }
 
     img {
@@ -15,10 +16,6 @@
 
 
    
-h2, h5 {
-    font-family: 'Bricolage Grotesque', sans-serif;
-}
-
    
 
 h1{
