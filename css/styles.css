@@ -5,10 +5,6 @@
     font-family: 'Bricolage Grotesque', sans-serif;
     }
 
-    @font-face {
-        font-family: 'Unbounded';
-        src: url('css/Unbounded.ttf') format('truetype');
-       } 
       
 
     img {
@@ -31,7 +27,7 @@ line-height: 1;
 
 h1{
     font-size: 8vw; 
-    font-family: 'Unbounded';
+    font-family: 'Unbounded', sans-serif;
     line-height: 1.2;
 text-decoration: none; 
 
